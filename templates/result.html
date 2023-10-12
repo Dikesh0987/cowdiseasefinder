@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: #336699;
+            font-size: 24px; /* Increased font size for the title */
+            margin-bottom: 20px; /* Added margin for spacing */
+        }
+        p {
+            font-size: 20px; /* Increased font size for the result text */
+        }
+        .box {
+            padding: 20px;
+            margin: 10px;
+            background: linear-gradient(135deg, #3494e6, #ec6ead);
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Skin Disese Prediction Result</h1>
+    <p>Disese Name : <span style="font-weight: bold; color: #FF5733;">{{ prediction }}</span></p>
+
+    <!-- Create three gradient boxes for "Explore More," "Treatment," and "Diseases" -->
+    <div class="box">
+        <h2>Explore More</h2>
+        <p>Learn more about this condition</p>
+    </div>
+
+    <div class="box">
+        <h2>Treatment</h2>
+        <p>Discover treatment options</p>
+    </div>
+
+    <div class="box">
+        <h2>Diseases</h2>
+        <p>Explore related diseases</p>
+    </div>
+</body>
+</html>
